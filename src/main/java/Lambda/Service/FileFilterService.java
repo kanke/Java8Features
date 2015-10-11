@@ -1,4 +1,4 @@
-package Lambda.Service;
+package lambda.service;
 
 import java.io.File;
 import java.io.FileFilter;

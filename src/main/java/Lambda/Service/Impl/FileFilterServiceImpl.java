@@ -1,6 +1,6 @@
-package Lambda.Service.Impl;
+package lambda.service.impl;
 
-import Lambda.Service.FileFilterService;
+import lambda.service.FileFilterService;
 
 import java.io.File;
 

@@ -1,4 +1,4 @@
-package Lambda.Service;
+package lambda.service;
 
 /**
  * Created by kanke on 11/10/2015.
