@@ -6,7 +6,7 @@ import java.io.File;
 
 /**
  * Created by kanke on 11/10/2015.
- * <p>
+ *
  * Class that implements the fileFilterService interface and creates an
  */
 public class FileFilterServiceImpl {

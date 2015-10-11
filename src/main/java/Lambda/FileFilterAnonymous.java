@@ -9,6 +9,7 @@ import java.io.FileFilter;
 public class FileFilterAnonymous {
     public static void main(String[] args) {
 
+
         //TODO Replace with Lambda
         FileFilter fileFilter = new FileFilter() {
 
@@ -30,10 +31,13 @@ public class FileFilterAnonymous {
 
     }
 
-    /**
+
+
+    /**Lamnda's are functional interfaces that belong to the java.util package
+     *
      * TO be deleted : For coaches to understand, Take parameter name, add lambda syntax and then return statement = lambda expression
      */
-    // FileFilter fileFilter = (pathname) -> pathname.getName().endsWith(".html");
+    // FileFilter fileFilterLambda = (pathname) -> pathname.getName().endsWith(".html");
 
 
 }
