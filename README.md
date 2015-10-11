@@ -17,4 +17,4 @@ If you are using maven and you get the error : **Error: java: javacTask: source 
 </code>
 
 
-![alt text](https://github.com/kanke/java8Features/src/common/images/maven-errror.png "Logo Title Text 1")
+![alt text](https://github.com/kanke/Java8Features/src/common/images/maven-errror.png "Logo Title Text 1")
