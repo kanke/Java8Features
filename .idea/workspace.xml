@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fffb9a22-867d-424d-878e-b59fe455ee07" name="Default" comment="" />
+    <list default="true" id="fffb9a22-867d-424d-878e-b59fe455ee07" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
     <ignored path="java8Features.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -89,7 +91,7 @@
           </provider>
           <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="86" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
+              <caret line="19" column="85" selection-start-line="19" selection-start-column="85" selection-end-line="19" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -159,8 +161,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="45" />
-    <option name="y" value="23" />
+    <option name="x" value="199" />
+    <option name="y" value="86" />
     <option name="width" value="1280" />
     <option name="height" value="727" />
   </component>
@@ -743,15 +745,15 @@
       <workItem from="1444297647699" duration="608000" />
       <workItem from="1444309904272" duration="588000" />
       <workItem from="1444319326933" duration="533000" />
-      <workItem from="1444320165753" duration="4532000" />
+      <workItem from="1444320165753" duration="4675000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10167000" />
+    <option name="totallyTimeSpent" value="10310000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="23" width="1280" height="727" extended-state="0" />
+    <frame x="199" y="86" width="1280" height="727" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -998,7 +1000,7 @@
       </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="86" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
+          <caret line="19" column="85" selection-start-line="19" selection-start-column="85" selection-end-line="19" selection-end-column="85" />
           <folding />
         </state>
       </provider>
