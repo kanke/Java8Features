@@ -17,4 +17,11 @@ If you are using maven and you get the error : **Error: java: javacTask: source 
 </code>
 
 
-![alt text](https://github.com/kanke/Java8Features/blob/master/src/common/images/maven-error.png)
+# Nashorn
+
+- Navigate to JAVA_HOME executable directory 
+
+For Mac: /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/bin/jjs
+For Windows: JAVA_HOME
+
+Checkout REPL.md for Nashorn Java in javascript example using REPL.

@@ -1,3 +1,5 @@
+package streams;
+
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 
