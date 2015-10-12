@@ -35,9 +35,9 @@ public class FileFilterAnonymous {
 
     /**Lamnda's are functional interfaces that belong to the java.util package
      *
-     * TO be deleted : For coaches to understand, Take parameter name, add lambda syntax and then return statement = lambda expression
+     *Take parameter name, add lambda syntax and then return statement = lambda expression
      */
-    // FileFilter fileFilterLambda = (pathname) -> pathname.getName().endsWith(".html");
+
 
 
 }

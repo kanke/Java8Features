@@ -11,9 +11,6 @@ public class StreamExample {
     public static void main(String[] args) {
 
 
-        //TODO Implement Stream API
-
-
         /**
          * Stream is a typed interface / an object define operations and doesn't hold data
          *
@@ -24,7 +21,6 @@ public class StreamExample {
          * Can process data in parallel efficiently and in one pass by performing multiple operations on it ...map/filter/reduce
          * Stream is new and not a Collection api because the Java didn't want to change collection api
          *
-         * To delete - Example for coaches
          */
         Stream<Integer> numbers = Stream.of(8, 7, 6, 5, 4, 3, 2, 1);
 

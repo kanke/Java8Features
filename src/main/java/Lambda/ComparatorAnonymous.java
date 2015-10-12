@@ -22,9 +22,7 @@ public class ComparatorAnonymous {
         List<String> list = Arrays.asList("big", "bigger", "largest", "more");
         Collections.sort(list, comparator);
 
-        for (String l : list) {
-            System.out.println(l);
-        }
+        list.forEach(System.out::println);
     }
 
 }
