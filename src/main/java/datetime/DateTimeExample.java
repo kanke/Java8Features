@@ -1,6 +1,7 @@
 package datetime;
 
 import java.time.*;
+import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalAdjusters;
 
 /**
@@ -19,7 +20,7 @@ public class DateTimeExample {
 
 
         //Months value start at 1 and not 0 as in Java 7 - 11/08/1989
-        LocalDate birthday = LocalDate.of(1989, Month.AUGUST,11);
+        LocalDate birthday = LocalDate.of(1989, Month.AUGUST, 11);
         LocalDate birthday2 = LocalDate.of(1989, 8, 11);
 
         //Current Time
@@ -43,17 +44,8 @@ public class DateTimeExample {
         //Period
         Period period = Period.between(currentDate, tomorrow);
 
-        System.out.println("currentDate " + currentDate);
-        System.out.println("currentTime " + currentTime);
-        System.out.println("birthday " + birthday);
-        System.out.println("birthday2 " + birthday2);
-        System.out.println("dateTime " + dateTime);
-        System.out.println("currentTimeInParis " + currentTimeInParis);
-
-        System.out.println("******Information about birthday month******");
-        System.out.println("birthdayMonth " + birthdayMonth);
-        System.out.println("monthValue " + monthValue);
-        System.out.println("minLength " + minLength);
+        // using a custom pattern (01/04/2014)
+        String asCustomPattern = dateTime.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
 
     }
 }
