@@ -26,6 +26,8 @@ public class StreamExample {
 
         Stream<Integer> numbers1 = Stream.of(8, 7, 6, 5, 4, 3, 2, 1);
 
+        System.out.println(numbers);
+
         Predicate<Integer> predicate1 = (s -> s.equals(8));
 
         Predicate<Integer> predicate2 = Predicate.isEqual(2);
@@ -35,7 +37,8 @@ public class StreamExample {
         numbers.filter(predicate2.or(predicate3))
                 .forEach(s -> System.out.println(s));
 
-        numbers1.filter(predicate1)
+
+        numbers1.filter(predicate2)
                 .forEach(s -> System.out.println(s));
     }
 }

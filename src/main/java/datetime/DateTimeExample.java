@@ -1,7 +1,6 @@
 package datetime;
 
 import java.time.*;
-import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalAdjusters;
 
 /**
@@ -44,8 +43,17 @@ public class DateTimeExample {
         //Period
         Period period = Period.between(currentDate, tomorrow);
 
-        // using a custom pattern (01/04/2014)
-        String asCustomPattern = dateTime.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+        System.out.println("currentDate " + currentDate);
+        System.out.println("currentTime " + currentTime);
+        System.out.println("birthday " + birthday);
+        System.out.println("birthday2 " + birthday2);
+        System.out.println("dateTime " + dateTime);
+        System.out.println("currentTimeInParis " + currentTimeInParis);
+
+        System.out.println("******Information about birthday month******");
+        System.out.println("birthdayMonth " + birthdayMonth);
+        System.out.println("monthValue " + monthValue);
+        System.out.println("minLength " + minLength);
 
     }
 }

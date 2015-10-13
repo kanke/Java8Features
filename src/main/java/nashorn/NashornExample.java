@@ -41,4 +41,13 @@ public class NashornExample {
 
     }
 
+
+    /**
+     *Invoking Java Methods from Javascript
+     */
+    static String message(String name) {
+        System.out.format("Hi" + name);
+        return "greetings from inside java method";
+    }
+
 }

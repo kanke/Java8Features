@@ -20,9 +20,18 @@ public class FileFilterAnonymous {
         };
 
 
+        //  lambda expression
+        /**Lamnda's are functional interfaces that belong to the java.util package
+         *
+         *Take parameter name, add lambda syntax and then return statement = lambda expression
+         */
+
+        FileFilter fileFilterLambda =  (pathname) ->  pathname.getName().endsWith(".html");
+
+
         //change location to your location where you have any HTML file
         File folder = new File("/Users/kanke/Desktop");
-        File[] listOfFiles = folder.listFiles(fileFilter);
+        File[] listOfFiles = folder.listFiles(fileFilterLambda);
 
 
         for (File file : listOfFiles) {
@@ -33,10 +42,6 @@ public class FileFilterAnonymous {
 
 
 
-    /**Lamnda's are functional interfaces that belong to the java.util package
-     *
-     *Take parameter name, add lambda syntax and then return statement = lambda expression
-     */
 
 
 
